@@ -1,6 +1,6 @@
 [
     //AdvancedNewFile - https://github.com/xobb1t/Sublime-AdvancedNewFile
-    { "keys": ["shift+ctrl+alt+n"], "command": "advanced_new_file"},
+    { "keys": ["ctrl+alt+n"], "command": "advanced_new_file"},
     //{ "keys": ["shift+ctrl+alt+n"], "command": "advanced_new_file", "args": {"is_python": true}},
     {
       "keys": ["tab"], 
@@ -49,7 +49,7 @@
     { "keys": ["ctrl+shift+r"], "command": "side_bar_move" },
  
     //SublimeFiles - https://github.com/al63/SublimeFiles
-    { "keys": ["ctrl+alt+n"], "command": "sublime_files", "args": {"command":"navigate"}},
+    { "keys": ["shift+ctrl+alt+n"], "command": "sublime_files", "args": {"command":"navigate"}},
 
     //Build system keybindings
     { "keys": ["f5"], "command": "build" }
